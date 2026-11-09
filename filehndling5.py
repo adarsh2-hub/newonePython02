@@ -1,0 +1,8 @@
+file=open("student1.txt","a")
+file.write("age:21\n")
+file.write("location:Bailkeri\n")
+file.close()
+file=open("student1.txt","r")
+content=file.read()
+print(content)
+file.close()

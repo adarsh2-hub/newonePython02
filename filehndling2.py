@@ -1,0 +1,6 @@
+file=open("student.txt","w")
+file.write("name:Adarsh")
+file.write("college:Government First Grade College Honnavar")
+file.write("course:BCA")
+file.close()
+print("Student File Saved Successfully!..")

@@ -1,0 +1,12 @@
+from collections import namedtuple
+Employee=namedtuple("Employee",["name","salary","department"])
+e1=Employee("Rahul",25000,"IT")
+e2=Employee("Priya",30000,"HR")
+print("Employee 1:-")
+print("Name:",e1.name)
+print("Salary:",e1.salary)
+print("Department:",e1.department)
+print("Employee 2:-")
+print("Name:",e2.name)
+print("Salary:",e2.salary)
+print("Department:",e2.department)
